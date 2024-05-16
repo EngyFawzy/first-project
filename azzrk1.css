@@ -1,0 +1,66 @@
+.parent {
+    display: flex;
+    background-color: white;
+    width: 530px;
+    height: 370px;
+    border-radius: 10px;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+img {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.description {
+    padding: 0px 25px;
+}
+
+.product {
+    font-family: "Trispace", sans-serif;
+    font-weight: lighter;
+}
+
+.product-name {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+.product-description {
+    font-family: "Trispace", sans-serif;
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+body {
+    background-color: rgb(248, 236, 223);
+}
+
+.price {
+    color: rgb(59, 142, 100);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.prices {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+del {
+    margin-top: 12px;
+}
+
+button {
+    background-color: rgb(59, 142, 100);
+    padding: 10px 50px;
+    color: white;
+    border-radius: 10px;
+    border-width: 0px;
+}
